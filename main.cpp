@@ -24,7 +24,7 @@ int main()
 			"port=5432 "
 			"dbname=TEST "
 			"user=postgres "
-			"password=89617479237k ";
+			"password=postgres ";
 
 		auto postgres = make_unique<dbo::backend::Postgres>(connString);
 		dbo::Session s;
